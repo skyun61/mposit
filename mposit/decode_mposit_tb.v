@@ -6,9 +6,7 @@ module decode_mposit_tb;
 	parameter N = 8;
 	parameter ES = 2;			// fixed
 	localparam W = $clog2(N);
-//	localparam FS = N-ES-3;		// fraction field
-	localparam N1 = N-1;
-
+	
 	wire [N-1:0] in;		// mposit format input
 	wire sign;
 	wire signed [W+ES:0] exp;
