@@ -41,14 +41,14 @@ module encode_mposit_tb;
 		for (i=1; i<16; i=i+1) begin
 			#50 exph = i;
 		end
-    $display(" ");
+		$display(" ");
 		frac = 5'b01010;
 		expl = 2'b11;
 		exph = 4'b0000;
 		for (i=1; i<16; i=i+1) begin
 			#50 exph = i;
 		end
-    $display(" ");
+		$display(" ");
 		frac = 5'b100000;
 		expl = 2'b11;
 		exph = 4'b0000;
